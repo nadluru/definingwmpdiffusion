@@ -2,7 +2,7 @@
 dwmpdir=DWMP
 lateral=(AF CB CST Fornix IFOF ILF MLF OR POPT SLF-I SLF-II SLF-III UF)
 commissural=(CC AC PC)
-export codedir=definingwmpdiffusion
+export codedir=definingwmpdiffusion/Scripts
 
 parallel --dry-run -j10 bash $codedir/Dissect_{1}.sh $dwmpdir/TCK-Streamlines/{2}/{3} $dwmpdir/SubmissionMaterial/{2} {4} ::: ${lateral[@]} ::: s{2..6} ::: tracking-deterministic-left.Bfloat tracking-probabilistic-left.Bfloat tracking-*-left.Bfloat :::+ det prob detprob
 parallel --dry-run -j10 bash $codedir/Dissect_{1}.sh $dwmpdir/TCK-Streamlines/{2}/{3} $dwmpdir/SubmissionMaterial/{2} {4} ::: ${commissural[@]} ::: s{2..6} ::: tracking-deterministic-comm.Bfloat tracking-probabilistic-comm.Bfloat tracking-*-comm.Bfloat :::+ det prob detprob
