@@ -6,4 +6,4 @@ The diffusion data for this study were selected from the Human Connectome Projec
 
 [1] Glasser, M.F., et al., The Human Connectome Project's neuroimaging approach. Nat Neurosci, 2016. 19(9): p. 1175-87
 
-Please cite [biorxiv](https://www.biorxiv.org/content/10.1101/2020.10.07.321083v1.full.pdf) if you find any material in this repository useful.
+Please cite Schilling et al. [biorxiv](https://www.biorxiv.org/content/10.1101/2020.10.07.321083v1.full.pdf) if you find any material in this repository useful.
